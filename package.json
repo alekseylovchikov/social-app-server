@@ -1,0 +1,29 @@
+{
+	"name": "merng",
+	"version": "1.0.0",
+	"description": "Backend for social posts app",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"dev": "nodemon index.js"
+	},
+	"keywords": [
+		"nodejs",
+		"graphql",
+		"mongodb",
+		"apollo-server"
+	],
+	"author": "Aleksey Lovchikov",
+	"license": "ISC",
+	"dependencies": {
+		"apollo-server": "^2.21.0",
+		"bcryptjs": "^2.4.3",
+		"dotenv": "^8.2.0",
+		"graphql": "^15.5.0",
+		"jsonwebtoken": "^8.5.1",
+		"mongoose": "^5.11.15"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.7"
+	}
+}
